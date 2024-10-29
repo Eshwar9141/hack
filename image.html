@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .gan{
+        height: 400px;
+        width: 500px;
+        border: 5px solid black;
+        background-image: url('download');
+        padding: 5px;
+        text-shadow: 20px;
+        font-weight: 900px;
+        font-size: 16px;
+        font-style: oblique;
+        background-color: rgba(201, 26, 26, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+  box-shadow: 20px 20px 50px 25px black;
+}
+        
+    
+    .main{
+        padding: 500px;
+        padding-left: 400px;
+       border: outset 5px;
+       height: 500px;
+       width: 600px;
+
+       border: 2px solid red;
+       margin:100px;
+       
+    }
+    .mainbox{
+        height: 800px;
+        width: 800px;
+        margin: auto;
+        border: 2px solid sandybrown;
+        box-shadow: 20px 20px 50px 30px rgb(70, 64, 64);
+        position: relative;
+    }
+    .box{
+        height:200px ;
+        width: 200px;
+        background-color: orange;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        animation-name: box;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation: box 5s 2s infinite ;
+        box-shadow: 10px 20px 20px 10px rgb(34, 37, 34);
+
+    }
+    @keyframes box{
+        0%{
+            top: 0px;
+            left: 0px;
+            background-color: orange;
+        }
+        25%{
+            top: 0px;
+            left: 600px;
+            background-color: red;
+        }
+
+        50%{
+            top: 600px;
+            left: 600px;
+            background-color: blue;
+        }
+        75%{
+            top: 600px;
+            left: 0px;
+            background-color: green;
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+            background-color: lawngreen;
+        }
+    }
+    .nature{
+        height: 600px;
+        width: 1500px;
+        border: 5px solid black;
+        position: relative;
+        margin-top: 50px;
+    }
+    .sun{
+        height: 200px;
+        width: 200px;
+        background-color: orange;
+        border-radius: 50%;
+        top: 100px;
+        position: absolute;
+    }
+    .cloud{
+        width: 500px;
+        height: 500px;
+        position: relative;
+        opacity: 0.8;
+        filter: sepia(5px 5px 5px 5px green);
+        
+        
+        
+
+    }
+ </style>
+</head>
+<body>
+    <div class="main">
+    <div class="gan">
+        <p>
+            Hypertext Markup Language (HTML) is the standard markup language for documents designed to be 
+            displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. 
+        </p>
+        <p>
+            Hypertext Markup Language (HTML) is the standard markup language for documents designed to be 
+            displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. 
+        </p>
+        <p>
+            Hypertext Markup Language (HTML) is the standard markup language for documents designed to be 
+            displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. 
+        </p>
+        <p>
+            Hypertext Markup Language (HTML) is the standard markup language for documents designed to be 
+            displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. 
+        </p>
+
+    </div>
+    </div>
+    <p></p>
+    <br/><br/>
+    <div class="mainbox">
+        <div class="box"></div>
+    </div>
+    <div></div>
+    <br>
+    <div class="nature">
+        <div class="sun"></div>
+        <div>
+        <img class="cloud" src="C:\Users\ek779\OneDrive\圖片\cloud.png" >
+        </div>
+    </div>
+</body>
+</html>
